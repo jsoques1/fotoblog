@@ -1,0 +1,534 @@
+Collecting asgiref==3.3.4
+  Downloading asgiref-3.3.4-py3-none-any.whl (22 kB)
+Collecting Django==3.2
+  Downloading Django-3.2-py3-none-any.whl (7.9 MB)
+     |████████████████████████████████| 7.9 MB 939 kB/s
+Collecting Pillow==8.2.0
+  Downloading Pillow-8.2.0.tar.gz (47.9 MB)
+     |████████████████████████████████| 47.9 MB 1.3 MB/s
+Collecting pytz==2021.1
+  Downloading pytz-2021.1-py2.py3-none-any.whl (510 kB)
+     |████████████████████████████████| 510 kB 1.6 MB/s
+Collecting sqlparse==0.4.1
+  Using cached sqlparse-0.4.1-py3-none-any.whl (42 kB)
+Building wheels for collected packages: Pillow
+  Building wheel for Pillow (setup.py) ... error
+  ERROR: Command errored out with exit status 1:
+   command: 'C:\Users\Admin\PycharmProjects\Django-intermediaire-master\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Admin\\AppData\\Local\\Temp\\pip-install-slw17wf3\\pillow_04ff9b79bf534e28b4d452b180b8e856\\setup.py'"'"'; __file__='"'"'C:\\Users\\Admin\\AppData\\Local\\Temp\\pip-install-slw17wf3\\pillow_04ff9b79bf534e28b4d452b180b8e856\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d 'C:\Users\Admin\AppData\Local\Temp\pip-wheel-25skkw5d'
+       cwd: C:\Users\Admin\AppData\Local\Temp\pip-install-slw17wf3\pillow_04ff9b79bf534e28b4d452b180b8e856\
+  Complete output (176 lines):
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build\lib.win-amd64-3.10
+  creating build\lib.win-amd64-3.10\PIL
+  copying src\PIL\BdfFontFile.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\BlpImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\BmpImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\BufrStubImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ContainerIO.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\CurImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\DcxImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\DdsImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\EpsImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ExifTags.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\features.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\FitsStubImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\FliImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\FontFile.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\FpxImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\FtexImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\GbrImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\GdImageFile.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\GifImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\GimpGradientFile.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\GimpPaletteFile.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\GribStubImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\Hdf5StubImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\IcnsImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\IcoImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\Image.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageChops.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageCms.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageColor.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageDraw.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageDraw2.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageEnhance.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageFile.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageFilter.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageFont.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageGrab.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageMath.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageMode.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageMorph.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageOps.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImagePalette.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImagePath.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageQt.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageSequence.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageShow.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageStat.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageTk.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageTransform.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImageWin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\ImtImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\IptcImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\Jpeg2KImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\JpegImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\JpegPresets.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\McIdasImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\MicImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\MpegImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\MpoImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\MspImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\PaletteFile.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\PalmImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\PcdImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\PcfFontFile.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\PcxImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\PdfImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\PdfParser.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\PixarImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\PngImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\PpmImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\PsdImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\PSDraw.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\PyAccess.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\SgiImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\SpiderImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\SunImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\TarIO.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\TgaImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\TiffImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\TiffTags.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\WalImageFile.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\WebPImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\WmfImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\XbmImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\XpmImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\XVThumbImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\_binary.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\_tkinter_finder.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\_util.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\_version.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\__init__.py -> build\lib.win-amd64-3.10\PIL
+  copying src\PIL\__main__.py -> build\lib.win-amd64-3.10\PIL
+  running egg_info
+  writing src\Pillow.egg-info\PKG-INFO
+  writing dependency_links to src\Pillow.egg-info\dependency_links.txt
+  writing top-level names to src\Pillow.egg-info\top_level.txt
+  reading manifest file 'src\Pillow.egg-info\SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no files found matching '*.c'
+  warning: no files found matching '*.h'
+  warning: no files found matching '*.sh'
+  warning: no previously-included files found matching '.appveyor.yml'
+  warning: no previously-included files found matching '.clang-format'
+  warning: no previously-included files found matching '.coveragerc'
+  warning: no previously-included files found matching '.editorconfig'
+  warning: no previously-included files found matching '.readthedocs.yml'
+  warning: no previously-included files found matching 'codecov.yml'
+  warning: no previously-included files matching '.git*' found anywhere in distribution
+  warning: no previously-included files matching '*.pyc' found anywhere in distribution
+  warning: no previously-included files matching '*.so' found anywhere in distribution
+  no previously-included directories found matching '.ci'
+  adding license file 'LICENSE'
+  writing manifest file 'src\Pillow.egg-info\SOURCES.txt'
+  running build_ext
+
+
+  The headers or library files could not be found for zlib,
+  a required dependency when compiling Pillow from source.
+
+  Please see the install instructions at:
+     https://pillow.readthedocs.io/en/latest/installation.html
+
+  Traceback (most recent call last):
+    File "C:\Users\Admin\AppData\Local\Temp\pip-install-slw17wf3\pillow_04ff9b79bf534e28b4d452b180b8e856\setup.py", line 976, in <module>
+      setup(
+    File "C:\Users\Admin\PycharmProjects\Django-intermediaire-master\venv\lib\site-packages\setuptools\__init__.py", line 153, in setup
+      return distutils.core.setup(**attrs)
+    File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\core.py", line 148, in setup
+      dist.run_commands()
+    File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\dist.py", line 966, in run_commands
+      self.run_command(cmd)
+    File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\dist.py", line 985, in run_command
+      cmd_obj.run()
+    File "C:\Users\Admin\PycharmProjects\Django-intermediaire-master\venv\lib\site-packages\wheel\bdist_wheel.py", line 299, in run
+      self.run_command('build')
+    File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\cmd.py", line 313, in run_command
+      self.distribution.run_command(command)
+    File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\dist.py", line 985, in run_command
+      cmd_obj.run()
+    File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\command\build.py", line 135, in run
+      self.run_command(cmd_name)
+    File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\cmd.py", line 313, in run_command
+      self.distribution.run_command(command)
+    File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\dist.py", line 985, in run_command
+      cmd_obj.run()
+    File "C:\Users\Admin\PycharmProjects\Django-intermediaire-master\venv\lib\site-packages\setuptools\command\build_ext.py", line 79, in run
+      _build_ext.run(self)
+    File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\command\build_ext.py", line 340, in run
+      self.build_extensions()
+    File "C:\Users\Admin\AppData\Local\Temp\pip-install-slw17wf3\pillow_04ff9b79bf534e28b4d452b180b8e856\setup.py", line 788, in build_extensions
+      raise RequiredDependencyException(f)
+  __main__.RequiredDependencyException: zlib
+
+  During handling of the above exception, another exception occurred:
+
+  Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    File "C:\Users\Admin\AppData\Local\Temp\pip-install-slw17wf3\pillow_04ff9b79bf534e28b4d452b180b8e856\setup.py", line 1033, in <module>
+      raise RequiredDependencyException(msg)
+  __main__.RequiredDependencyException:
+
+  The headers or library files could not be found for zlib,
+  a required dependency when compiling Pillow from source.
+
+  Please see the install instructions at:
+     https://pillow.readthedocs.io/en/latest/installation.html
+
+
+  C:\Users\Admin\AppData\Local\Temp\pip-install-slw17wf3\pillow_04ff9b79bf534e28b4d452b180b8e856\setup.py:46: RuntimeWarning: Pillow 8.2.0 does not support Python 3.10 and does not provide prebuilt Windows binaries. We do not recommend building from source on Windows.
+    lambda: warnings.warn(
+  ----------------------------------------
+  ERROR: Failed building wheel for Pillow
+  Running setup.py clean for Pillow
+Failed to build Pillow
+Installing collected packages: sqlparse, pytz, asgiref, Pillow, Django
+    Running setup.py install for Pillow ... error
+    ERROR: Command errored out with exit status 1:
+     command: 'C:\Users\Admin\PycharmProjects\Django-intermediaire-master\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Admin\\AppData\\Local\\Temp\\pip-install-slw17wf3\\pillow_04ff9b79bf534e28b4d452b180b8e856\\setup.py'"'"'; __file__='"'"'C:\\Users\\Admin\\AppData\\Local\\Temp\\pip-install-slw17wf3\\pillow_04ff9b79bf534e28b4d452b180b8e856\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\Admin\AppData\Local\Temp\pip-record-46lrefuz\install-record.txt' --single-version-externally-managed --compile --install-headers 'C:\Users\Admin\PycharmProjects\Django-intermediaire-master\venv\include\site\python3.10\Pillow'
+         cwd: C:\Users\Admin\AppData\Local\Temp\pip-install-slw17wf3\pillow_04ff9b79bf534e28b4d452b180b8e856\
+    Complete output (178 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build\lib.win-amd64-3.10
+    creating build\lib.win-amd64-3.10\PIL
+    copying src\PIL\BdfFontFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\BlpImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\BmpImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\BufrStubImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ContainerIO.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\CurImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\DcxImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\DdsImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\EpsImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ExifTags.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\features.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\FitsStubImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\FliImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\FontFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\FpxImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\FtexImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\GbrImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\GdImageFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\GifImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\GimpGradientFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\GimpPaletteFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\GribStubImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\Hdf5StubImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\IcnsImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\IcoImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\Image.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageChops.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageCms.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageColor.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageDraw.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageDraw2.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageEnhance.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageFilter.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageFont.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageGrab.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageMath.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageMode.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageMorph.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageOps.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImagePalette.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImagePath.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageQt.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageSequence.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageShow.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageStat.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageTk.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageTransform.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageWin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImtImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\IptcImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\Jpeg2KImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\JpegImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\JpegPresets.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\McIdasImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\MicImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\MpegImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\MpoImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\MspImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PaletteFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PalmImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PcdImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PcfFontFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PcxImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PdfImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PdfParser.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PixarImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PngImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PpmImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PsdImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PSDraw.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PyAccess.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\SgiImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\SpiderImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\SunImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\TarIO.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\TgaImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\TiffImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\TiffTags.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\WalImageFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\WebPImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\WmfImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\XbmImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\XpmImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\XVThumbImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\_binary.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\_tkinter_finder.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\_util.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\_version.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\__init__.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\__main__.py -> build\lib.win-amd64-3.10\PIL
+    running egg_info
+    writing src\Pillow.egg-info\PKG-INFO
+    writing dependency_links to src\Pillow.egg-info\dependency_links.txt
+    writing top-level names to src\Pillow.egg-info\top_level.txt
+    reading manifest file 'src\Pillow.egg-info\SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching '*.c'
+    warning: no files found matching '*.h'
+    warning: no files found matching '*.sh'
+    warning: no previously-included files found matching '.appveyor.yml'
+    warning: no previously-included files found matching '.clang-format'
+    warning: no previously-included files found matching '.coveragerc'
+    warning: no previously-included files found matching '.editorconfig'
+    warning: no previously-included files found matching '.readthedocs.yml'
+    warning: no previously-included files found matching 'codecov.yml'
+    warning: no previously-included files matching '.git*' found anywhere in distribution
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+    no previously-included directories found matching '.ci'
+    adding license file 'LICENSE'
+    writing manifest file 'src\Pillow.egg-info\SOURCES.txt'
+    running build_ext
+
+
+    The headers or library files could not be found for zlib,
+    a required dependency when compiling Pillow from source.
+
+    Please see the install instructions at:
+       https://pillow.readthedocs.io/en/latest/installation.html
+
+    Traceback (most recent call last):
+      File "C:\Users\Admin\AppData\Local\Temp\pip-install-slw17wf3\pillow_04ff9b79bf534e28b4d452b180b8e856\setup.py", line 976, in <module>
+        setup(
+      File "C:\Users\Admin\PycharmProjects\Django-intermediaire-master\venv\lib\site-packages\setuptools\__init__.py", line 153, in setup
+        return distutils.core.setup(**attrs)
+      File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\core.py", line 148, in setup
+        dist.run_commands()
+      File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\dist.py", line 966, in run_commands
+        self.run_command(cmd)
+      File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "C:\Users\Admin\PycharmProjects\Django-intermediaire-master\venv\lib\site-packages\setuptools\command\install.py", line 61, in run
+        return orig.install.run(self)
+      File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\command\install.py", line 568, in run
+        self.run_command('build')
+      File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\command\build.py", line 135, in run
+        self.run_command(cmd_name)
+      File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "C:\Users\Admin\PycharmProjects\Django-intermediaire-master\venv\lib\site-packages\setuptools\command\build_ext.py", line 79, in run
+        _build_ext.run(self)
+      File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\distutils\command\build_ext.py", line 340, in run
+        self.build_extensions()
+      File "C:\Users\Admin\AppData\Local\Temp\pip-install-slw17wf3\pillow_04ff9b79bf534e28b4d452b180b8e856\setup.py", line 788, in build_extensions
+        raise RequiredDependencyException(f)
+    __main__.RequiredDependencyException: zlib
+
+    During handling of the above exception, another exception occurred:
+
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "C:\Users\Admin\AppData\Local\Temp\pip-install-slw17wf3\pillow_04ff9b79bf534e28b4d452b180b8e856\setup.py", line 1033, in <module>
+        raise RequiredDependencyException(msg)
+    __main__.RequiredDependencyException:
+
+    The headers or library files could not be found for zlib,
+    a required dependency when compiling Pillow from source.
+
+    Please see the install instructions at:
+       https://pillow.readthedocs.io/en/latest/installation.html
+
+
+    C:\Users\Admin\AppData\Local\Temp\pip-install-slw17wf3\pillow_04ff9b79bf534e28b4d452b180b8e856\setup.py:46: RuntimeWarning: Pillow 8.2.0 does not support Python 3.10 and does not provide prebuilt Windows binaries. We do not recommend building from source on Windows.
+      lambda: warnings.warn(
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: 'C:\Users\Admin\PycharmProjects\Django-intermediaire-master\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Admin\\AppData\\Local\\Temp\\pip-install-slw17wf3\\pillow_04ff9b79bf534e28b4d452b180b8e856\\setup.py'"'"'; __file__='"'"'C:\\Users\\Admin\\AppData\\Local\\Temp\\pip-install-slw17wf3\\pillow_04ff9b79bf534e28b4d452b180b8e856\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\Admin\AppData\Local\Temp\pip-record-46lrefuz\install-record.txt' --single-version-externally-managed --compile --install-headers 'C:\Users\Admin\PycharmProjects\Django-intermediaire-master\venv\include\site\python3.10\Pillow' Check the logs for full command output.
+WARNING: You are using pip version 21.1.2; however, version 22.0.4 is available.
+You should consider upgrading via the 'C:\Users\Admin\PycharmProjects\Django-intermediaire-master\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+(venv) PS C:\Users\Admin\PycharmProjects\Django-intermediaire-master> pip list
+Package    Version
+---------- -------
+asgiref    3.3.4
+pip        21.1.2
+pytz       2021.1
+setuptools 57.0.0
+sqlparse   0.4.1
+wheel      0.36.2
+WARNING: You are using pip version 21.1.2; however, version 22.0.4 is available.
+You should consider upgrading via the 'C:\Users\Admin\PycharmProjects\Django-intermediaire-master\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+(venv) PS C:\Users\Admin\PycharmProjects\Django-intermediaire-master>
+
+
+
+
+NBSP + affichage tab sous pycharm
+
+django.contrib.auth.forms
+
+
+modif base.html + STATIC_URL = '/static/'
+
+
+@login_required
+def blog_and_photo_upload(request):
+    blog_form = forms.BlogForm()
+    photo_form = forms.PhotoForm()
+    if request.method == 'POST':
+        blog_form = forms.BlogForm(request.POST)
+        photo_form = forms.PhotoForm(request.POST, request.FILES)
+        if all([blog_form.is_valid(), photo_form.is_valid()]):
+            blog_form.save()
+            photo_form.save()
+    context = {
+        'blog_form': blog form,
+        'photo_form': photo_form,
+}
+return render(request, 'blog/create_blog_post.html', context=context)
+
+Comment s'effectue le remplissage des foreign key?
+Pour mettre un commit False?
+
+# blog/views.py
+
+@login_required
+def follow_users(request):
+    form = forms.FollowUsersForm(instance=request.user)
+    if request.method == 'POST':
+        form = forms.FollowUsersForm(request.POST, instance=request.user)
+        if form.is_valid():
+            form.save()
+            return redirect('home')
+    return render(request, 'blog/follow_users_form.html', context={'form': form})
+	
+	
+Si vous utilisez la méthode   ModelForm.save()  avec l’argument   commit=False  , les relations plusieurs-à-plusieurs ne seront pas sauvegardées, car elles nécessitent d’abord la sauvegarde de l’instance initiale dans la base de données. Vous devrez appeler la méthode  ModelForm.save_m2m()  après avoir sauvegardé l’instance du modèle dans la base de données.
+
+
+class BlogForm(forms.ModelForm):
+    edit_blog = forms.BooleanField(widget=forms.HiddenInput, initial=True)
+
+    class Meta:
+        model = models.Blog
+        fields = ['title', 'content']
+
+
+class DeleteBlogForm(forms.Form):
+    delete_blog = forms.BooleanField(widget=forms.HiddenInput, initial=True)
+
+
+pourquoi DeleteBlogForm hérite de forms.Form ?
+
+ if all([blog_form.is_valid(), photo_form.is_valid()]):
+ 
+ 
+ class Photo(models.Model):
+    ...
+    def save(self, *args, **kwargs):
+        super().save(*args, **kwargs)
+        self.resize_image()
+		
+pourquoi le super().save() est exécuté en premier ?
+
+Si vous utilisez la méthode   ModelForm.save()  avec l’argument   commit=False  , les relations plusieurs-à-plusieurs ne seront pas sauvegardées, car elles nécessitent d’abord la sauvegarde de l’instance initiale dans la base de données. Vous devrez appeler la méthode  ModelForm.save_m2m()  après avoir sauvegardé l’instance du modèle dans la base de données.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
